@@ -1,15 +1,10 @@
-# Frontend Developer Test
-This project was written by Sean Burman as part of the application test for BlazeSoft.
-Thank you for taking the time to review my project and credentials.
+# Bookstore inventory app
+This project was written by me using React and Redux. It's a mock Bookstore inventory app with CRUD functionality.
 
-Please run:
+To run the App:
 
 ### `npm install && npm start`
 
-
-Sincerely,
-
-Sean Burman
 
 
 
