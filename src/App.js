@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import { AddBook } from "./features/books/AddBook"
+import { BooksList } from "./features/books/BooksList"
+import './App.css'
 
+//This app component displays a list of books kept in the redux store
+//with CRUD functionality for each book.
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+    return (
+      <div className="main">
+        <h1>Sean's Bookstore</h1>
+        <AddBook />
+        <BooksList />
+      </div>
+    )
+  }
+  
+  export default App
